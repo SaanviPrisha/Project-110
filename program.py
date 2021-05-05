@@ -6,7 +6,7 @@ import plotly.figure_factory as ff
 import plotly.graph_objects as go
 
 
-file1 = pd.read_csv('medium_data.csv')
+file1 = pd.read_csv('data.csv')
 data = df['reading_time'].tolist()
 
 dataset = []
